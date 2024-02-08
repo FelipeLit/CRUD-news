@@ -1,0 +1,44 @@
+{
+  "news": [
+
+    {
+      "id": "f58c",
+      "name": "HOla",
+      "url": "https://media.istockphoto.com/id/1457729914/es/foto/feed-de-noticias-en-el-tel%C3%A9fono-ver-y-leer-los-%C3%BAltimos-art%C3%ADculos-y-titulares-en-l%C3%ADnea-desde-la.webp?s=2048x2048&w=is&k=20&c=ewHbMh_6-OESBrFAjiqWEOWcOIeMhiMBnz-C9bO_7t0=",
+      "date": "Thu Feb 08 2024",
+      "author": "Administrador",
+      "category": "Tecnologia",
+      "content": "aassadds"
+    }
+  ],
+  "categories": [
+    {
+      "id": "d05b",
+      "name": "Tecnologia",
+      "description": "Todo sobre tecnologia"
+    },
+    {
+      "id": "cf66",
+      "name": "Ultima hora",
+      "description": "Todo sobre ultima hora"
+    },
+    {
+      "id": "913c",
+      "name": "IA",
+      "description": "Todo sobre la IA en el mundo actual"
+    },
+    {
+      "id": "e597",
+      "name": "Deporte",
+      "description": "Todo sobre deporte"
+    }
+  ],
+  "users": [
+    {
+      "id": "d371",
+      "name": "Felipe",
+      "email": "test@riwi.io",
+      "password": "riwi2024"
+    }
+  ]
+}
