@@ -24,7 +24,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Log In</a>
+              <a class="nav-link" href="login.html" id="Exit">Log out</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -213,18 +213,68 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Delete category</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" id="closeCategory" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" id="bodyDeleteCategory">
           ...
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" id="btnDelete">Delete</button>
+          <button type="button" class="btn btn-danger" id="btnDelete">Delete category</button>
         </div>
       </div>
     </div>
   </div>
   <!-- MODAL DELETE CATEGORY END -->
+
+
+  <!-- MODAL DELETE NOTICIA -->
+  <div class="modal fade" id="modalDeleteNews" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Delete news</h5>
+          <button type="button" id="closeDeleteNews" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="bodyDeleteNews">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" id="btnDeleteNews">Delete news</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END MODAL DELETE NOTICIA -->
+
+    <!-- MODAL EDIT NOTICIA -->
+    <div class="modal fade" id="modalEditNews" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Edit news</h5>
+            <button type="button" id="closeEditNews" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="bodyEditNews">
+            <label for="">id</label>
+            <input id="newsId" type="text" class="form-control mt-3" readonly style="background-color: rgb(235, 235, 235);">
+            <label for="">Name</label>
+            <input id="editName" type="text" class="form-control mt-3">
+            <label for="">URL</label>
+            <input id="editUrl" type="text" class="form-control mt-3">
+            <label for="">Categoria</label> 
+            <select name="" id="editCategoryNews" class="form-select">
+              <option value="" disabled>Seleccione una categoria</option>
+            </select>
+            <label for="">Notice description</label>
+            <textarea class="form-control" id="editContentNews" rows="3"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" id="btnEditNews">Edit news</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MODAL EDIT NOTICIA -->
 
   <script src="js/libs/bootstrap.bundle.min.js"></script>
   <script src="./js/libs/administrator.js"></script>

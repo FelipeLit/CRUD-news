@@ -1,36 +1,44 @@
 {
   "news": [
-
     {
-      "id": "f58c",
-      "name": "HOla",
-      "url": "https://media.istockphoto.com/id/1457729914/es/foto/feed-de-noticias-en-el-tel%C3%A9fono-ver-y-leer-los-%C3%BAltimos-art%C3%ADculos-y-titulares-en-l%C3%ADnea-desde-la.webp?s=2048x2048&w=is&k=20&c=ewHbMh_6-OESBrFAjiqWEOWcOIeMhiMBnz-C9bO_7t0=",
-      "date": "Thu Feb 08 2024",
+      "id": "45c3",
+      "name": "Perrito",
+      "url": "https://media.istockphoto.com/id/1357899346/es/foto/perrito-sobre-un-fondo-borroso.jpg?s=1024x1024&w=is&k=20&c=lJMTUnWtO6lK5YxSrf3CAQv0nKcTKYbSvwxpNoZPtiQ=",
+      "date": "Fri Feb 09 2024",
       "author": "Administrador",
-      "category": "Tecnologia",
-      "content": "aassadds"
+      "category": "Inteligencia artificial",
+      "content": "Perro muerde a un culebra"
+    },
+    {
+      "id": "bc00",
+      "name": "Cuidado animal",
+      "url": "https://cdn.pixabay.com/photo/2016/10/31/14/55/nothing-1785760_1280.jpg",
+      "date": "Sun Feb 11 2024",
+      "author": "Administrador",
+      "category": "Animales",
+      "content": "aaaaaaaaa"
     }
   ],
   "categories": [
     {
-      "id": "d05b",
-      "name": "Tecnologia",
-      "description": "Todo sobre tecnologia"
-    },
-    {
-      "id": "cf66",
-      "name": "Ultima hora",
-      "description": "Todo sobre ultima hora"
-    },
-    {
-      "id": "913c",
-      "name": "IA",
-      "description": "Todo sobre la IA en el mundo actual"
+      "name": "Inteligencia artificial",
+      "description": "Todo sobre la IA en el mundo actual",
+      "id": "913c"
     },
     {
       "id": "e597",
       "name": "Deporte",
       "description": "Todo sobre deporte"
+    },
+    {
+      "id": "41ec",
+      "name": "Animales",
+      "description": "Todo sobre animales"
+    },
+    {
+      "id": "b53e",
+      "name": "Planetas",
+      "description": "Todos los planetas"
     }
   ],
   "users": [
@@ -38,7 +46,7 @@
       "id": "d371",
       "name": "Felipe",
       "email": "test@riwi.io",
-      "password": "riwi2024"
+      "password": "123456"
     }
   ]
 }

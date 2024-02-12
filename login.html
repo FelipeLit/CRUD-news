@@ -52,7 +52,7 @@
 
     <main class="container d-flex justify-content-center">
       <form class="border p-4 rounded-3 my-5" action="administrator.html">
-        <h2 class="text-center">Welcome!</h2>
+        <h2 class="text-center">Welcome to Riwi news!</h2>
         <div class="mb-3">
           <label for="email" class="form-label">Email address</label>
           <input
@@ -60,19 +60,33 @@
             class="form-control"
             id="email"
             aria-describedby="emailHelp"
-          />
-          <div id="emailHelp" class="form-text">
-            We'll never share your email with anyone else.
-          </div>
+          />  
         </div>
         <div class="mb-3">
           <label for="password" class="form-label">Password</label>
           <input type="password" class="form-control" id="password" />
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-primary" id="btnIngresar">Ingresar</button>
       </form>
+
+      <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Usuario invalido</h5>
+              <button type="button" id="closeDeleteNews" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="userInvalid">
+    
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </main>
     <script src="js/libs/bootstrap.bundle.min.js"></script>
+    <script src="./js/libs/login.js"></script>
   </body>
 </html>
